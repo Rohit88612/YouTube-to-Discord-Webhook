@@ -87,4 +87,4 @@ async function run() {
   saveCache();
 }
 
-setInterval(run, 300_000); // Poll every 5 minutes
+setInterval(run, 300_000); // Checks for new live streams every 5 minutes.
